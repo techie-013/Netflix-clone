@@ -6,6 +6,7 @@
     font-size: 'Poppins', 'sans-serif';
 
 }
+
 body {
     background-color: black;
 }
@@ -21,9 +22,9 @@ body {
 }
 
 .main .box {
-    height: 95vh;
+    height: 70vh;
     width: 100%;
-    opacity: 0.60;
+    opacity: 0.74;
     background-color: black;
     position: absolute;
     top: 0;
@@ -31,17 +32,17 @@ body {
 }
 
 nav {
-    max-width: 95vw;
+    max-width: 60vw;
     justify-content: space-between;
     margin: auto;
     display: flex;
     align-items: center;
-    height: 52px;
+    height: 62px;
 }
 
 nav img {
     color: red;
-    width: 130px;
+    width: 114px;
     position: relative;
     z-index: 10;
 }
@@ -53,7 +54,7 @@ nav button {
 
 .tag {
     font-family: 'Martel Sans', 'sans-serif';
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,18 +62,68 @@ nav button {
     position: relative;
     color: white;
     gap: 23px;
-     padding: 0 30px;
-     text-align: center;
+    padding: 0 30px;
+    gap: 0px;
 }
-.tag>:nth-child(1){
-    font-weight: 900;
-    font-size: 48px;}
 
-.tag>:nth-child(2){
+.tag>:nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.tag>:nth-child(2) {
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
-.tag>:nth-child(3){
+
+.tag>:nth-child(3) {
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    background-color: rgb(45, 44, 44);
+    height: 7px;
+    width: 100vw;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight:400;
+    background-color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px; 
+    border-radius: 4px;
+
+}
+.tag-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border-color: rgba(236,236,236,0.5)
+
 }

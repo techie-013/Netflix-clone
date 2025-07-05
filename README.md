@@ -1,60 +1,56 @@
-# 🎬 Netflix Clone - HTML & CSS
+# 🎬 Netflix Clone (Frontend)
 
-This is my **first web project** — a simple Netflix homepage clone built using only **HTML** and **CSS**. It’s part of my learning journey into frontend development.
+A visually accurate **Netflix landing page clone** built using **HTML5** and **CSS3** — fully responsive and lightweight.
 
 ---
 
-## 🚧 Work in Progress
+## 🚀 Features
 
-This project is **not yet complete** — I’ll keep updating it as I learn more, including:
-- ✅ Responsiveness
-- ✅ Form sections (like Sign In)
-- ✅ Animations and interactivity with JavaScript (coming soon)
-- ✅ Deployment
+- ✅ Fully responsive layout
+- ✅ Clean navigation bar with logo and buttons
+- ✅ Hero section with call-to-action
+- ✅ Multiple informative sections with images and videos
+- ✅ Autoplay background videos (muted)
+- ✅ FAQ section (static layout)
+- ✅ Netflix-style footer with useful links
 
 ---
 
 ## 📁 Folder Structure
 
-Netflix-clone/
+Netflix Clone/
 ├── index.html
 ├── style.css
-└── Assets/
-└── Images/
-├── logo.svg
-└── image.png
+├── favicon.ico
+├── README.md
+├── Assets/
+│ ├── Images/
+│ │ ├── image.png
+│ │ ├── logo.svg
+│ │ ├── Sec1.png
+│ │ ├── Sec2.jpg
+│ │ └── Sec3.png
+│ └── Videos/
+│ ├── Video1.m4v
+│ └── Video2.m4v
 
-## 🛠️ What I Used
+## 🚀 How to Run
+
+1. Download or clone the repository
+2. Open `index.html` in your browser
+3. Enjoy the Netflix UI experience!
+
+## 💡 Improvements in Future
+
+- Add a working sign-in page
+- Make FAQ section interactive with JavaScript
+- Optimize video playback across devices
+
+## 🛠️ Tech Stack
 
 - HTML5
-- CSS3 (Flexbox, positioning)
-- Google Fonts
-- Simple layout, no JavaScript
+- CSS
 
 ---
 
-## 💡 What I Learned
-
-- HTML structure and page layout
-- CSS positioning, `z-index`, and background overlays
-- Using images, fonts, and buttons
-- Git & GitHub workflow
-
----
-
-## 📌 About Me
-
-Hi! I’m **Sneha Singh**, a beginner frontend developer.  
-This is my first attempt at cloning a real-world UI — and I'm just getting started!  
-Next goal: Make this clone fully responsive and add interactivity.
-
----
-
-## 🔗 Live Demo
-
-Coming soon...
-
----
-
-📦 Repo: [Netflix Clone on GitHub](https://github.com/techie-013/Netflix-clone)  
-🙋‍♀️ Built with ❤️ by Sneha Singh  
+Made with ❤️ by Sneha Singh

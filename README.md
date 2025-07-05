@@ -53,4 +53,16 @@ Netflix Clone/
 
 ---
 
+## 📷 Preview
+
+Here are a few screenshots of the Netflix Clone UI:
+
+![Netflix Clone Preview 1](Assets/Images/Preview1.png)
+![Netflix Clone Preview 2](Assets/Images/Preview2.png)
+![Netflix Clone Preview 3](Assets/Images/Preview3.png)
+![Netflix Clone Preview 4](Assets/Images/Preview4.png)
+
+---
+
+
 Made with ❤️ by Sneha Singh
